@@ -1,0 +1,133 @@
+*{
+margin: 0px;
+font-family: "inter";
+}
+
+#titulo{
+    margin-bottom: 25px;
+    margin-top: 100px;
+    font-size: 75px;
+    margin-left: 50px;
+}
+
+#sub-titulo{
+    margin-bottom: 25px;
+    margin-left: 50px;
+    font-size: 35px;
+
+}
+
+#menusuperio{
+    padding-top: 200px;
+    padding-left: 75px;
+    padding-bottom: 150px;
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+#menuinformativo{
+    
+background-color: #F9F9F9;
+}
+
+
+#div2{
+    padding-top: 50px; 
+    padding: 100px;
+    padding-bottom: 50px;
+    background-color: #F9F9F9;
+    color: #000000;  
+    display: grid;
+    grid-auto-flow: column;  
+}
+
+.tsegundomenu{
+    color: #000000;  
+    display: grid;
+    grid-auto-flow: column;  
+    font-size: 100px;
+}
+
+#menufoto{
+background-color: #FFFFFF;
+color: #000000;
+padding-top: 100px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 100px;
+display: grid;
+grid-auto-flow: column;
+columns:auto;
+text-align: left;
+
+}
+
+#textosfotos{
+    font-size: 35px;
+    margin-top: 200px;
+    
+}
+
+#titulomenufoto{
+    font-size: 55px;
+}
+
+#foto{
+    width: 650px;
+
+}
+
+#tituloformulario{
+    color: #FFFFFF;
+    margin-top: 75PX;
+    font-size: 55px;
+
+}
+
+#formulario{
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-bottom: 35px;
+    background-color: #303030;
+    text-align: center;
+}
+
+input{
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 80px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #0000004D;
+    font-weight: bolder;
+
+}
+button{
+    background: #C07212;
+    height: 100px;
+    width: 450px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Raleway";
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c27e2c;
+    color: white;
+    transform: translate(-5px);
+    box-shadow: 0px 15px 20px #663b067a;
+    transition-duration: 0,5s;
+}
+
+
+
